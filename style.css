@@ -1,0 +1,128 @@
+body{
+  background-color:#E9D5DA;
+  color:#827397;
+  font-family: Oswald;
+  font-size: 25px;
+}
+
+h1{color: white;
+   font-family: 'Ms Madi', cursive;
+   font-weight:200px;
+   letter-spacing:5px;
+   font-size:65px;
+  }
+h2{
+
+  font-family: 'Ms Madi', cursive;
+  font-size: 24px;
+  font font-weight: lighter;
+}
+
+a{text-decoration-line: none;
+  color: #9EBC9F;
+  }
+
+a:hover{
+  color:#92967D;
+  transition: color 1s ease;
+  font-size: 80px;
+  font-weight: bolder;
+  }
+
+
+.container{
+  width: 800px;
+  margin: 40px auto;
+
+}
+
+@media(max-width: 500px) {
+  .container{
+    width: 400px;}
+  .img-circle{width: 200px;}
+
+}
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+  .img-circle{width: 300px;}}
+
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;}
+ .img-circle{width: 250px;} }
+
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;}
+    .img-circle{width: 200px;}
+}
+
+
+.card-white{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle{
+  border-radius: 60%;
+}
+
+.btn-green{
+  background-color: #FBF8F1;
+  color: #EDCDBB;
+  padding: 15px 20px;
+  border-radius: 10px;}
+
+.btn-green:hover{
+  background-color: #F7ECDE;
+  font-size: 30px;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+
+}
+.list-inline li{
+  display: inline;
+  margin:20px 10px;
+  padding: 30px;}
+.list-inline i{
+  font-size: 60px;
+
+}
+
+#introduction p{
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+.list-language {
+  list-style-type: none;
+  text-align: left;
+}
+
+
+.list-language i{
+  margin: 10px 10px;
+  color: #9EBC9F;
+
+  }
+#email-school a:hover{
+  font-size: 30px;
+
+}
+
+#contact-me {
+  font-size: 25px;
+  text-align: center;
+  color: #9EBC9F;
+}
